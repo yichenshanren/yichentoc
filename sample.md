@@ -7,7 +7,8 @@
 
 > This is the first level of quoting.
 >
-> > This is nested blockquote.
+> * This is nested blockquote.
+> 1. This is nested blockquote.
 >
 > Back to the first level.
 

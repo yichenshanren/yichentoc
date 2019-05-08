@@ -1,115 +1,89 @@
 /*
- * Visual Studio 2015 dark style
- * Author: Nicolas LLOBERA <nllobera@gmail.com>
- */
+
+Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
+
+*/
 
 .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #1E1E1E;
-  color: #DCDCDC;
-}
-
-.hljs-keyword,
-.hljs-literal,
-.hljs-symbol,
-.hljs-name {
-  color: #569CD6;
-}
-.hljs-link {
-  color: #569CD6;
-  text-decoration: underline;
-}
-
-.hljs-built_in,
-.hljs-type {
-  color: #4EC9B0;
-}
-
-.hljs-number,
-.hljs-class {
-  color: #B8D7A3;
-}
-
-.hljs-string,
-.hljs-meta-string {
-  color: #D69D85;
-}
-
-.hljs-regexp,
-.hljs-template-tag {
-  color: #9A5334;
-}
-
-.hljs-subst,
-.hljs-function,
-.hljs-title,
-.hljs-params,
-.hljs-formula {
-  color: #DCDCDC;
+  background: white;
+  color: black;
 }
 
 .hljs-comment,
 .hljs-quote {
-  color: #57A64A;
-  font-style: italic;
+  color: #800;
 }
 
-.hljs-doctag {
-  color: #608B4E;
-}
-
-.hljs-meta,
-.hljs-meta-keyword,
-.hljs-tag {
-  color: #9B9B9B;
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-title,
+.hljs-name {
+  color: #008;
 }
 
 .hljs-variable,
 .hljs-template-variable {
-  color: #BD63C5;
+  color: #660;
 }
 
+.hljs-string,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-regexp {
+  color: #080;
+}
+
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-meta,
+.hljs-number,
+.hljs-link {
+  color: #066;
+}
+
+.hljs-title,
+.hljs-doctag,
+.hljs-type,
 .hljs-attr,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params {
+  color: #606;
+}
+
 .hljs-attribute,
-.hljs-builtin-name {
-  color: #9CDCFE;
+.hljs-subst {
+  color: #000;
 }
 
-.hljs-section {
-  color: gold;
-}
-
-.hljs-emphasis {
+.hljs-formula {
+  background-color: #eee;
   font-style: italic;
 }
 
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #9B703F
+}
+
+.hljs-addition {
+  background-color: #baeeba;
+}
+
+.hljs-deletion {
+  background-color: #ffc8bd;
+}
+
+.hljs-doctag,
 .hljs-strong {
   font-weight: bold;
 }
 
-/*.hljs-code {
-  font-family:'Monospace';
-}*/
-
-.hljs-bullet,
-.hljs-selector-tag,
-.hljs-selector-id,
-.hljs-selector-class,
-.hljs-selector-attr,
-.hljs-selector-pseudo {
-  color: #D7BA7D;
-}
-
-.hljs-addition {
-  background-color: #144212;
-  display: inline-block;
-  width: 100%;
-}
-
-.hljs-deletion {
-  background-color: #600;
-  display: inline-block;
-  width: 100%;
+.hljs-emphasis {
+  font-style: italic;
 }
