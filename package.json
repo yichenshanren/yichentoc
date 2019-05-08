@@ -1,6 +1,6 @@
 {
   "name": "yichen_toc",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "from tocmd.npm:a npm wrapper of i5ting_ztree_toc",
   "keywords": [
     "doc",
@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yichenshanren/tocmd.npm"
+    "url": "https://github.com/yichenshanren/yichentoc"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/i5ting/tocmd.npm/issues"
+    "url": "https://github.com/yichenshanren/yichentoc/issues"
   },
   "dependencies": {
     "bufferhelper": "^0.2.0",
@@ -46,5 +46,5 @@
     "gulp-watch": "^0.7.0",
     "mocha": "*"
   },
-  "homepage": "https://github.com/yichenshanren/tocmd.npm"
+  "homepage": "https://github.com/yichenshanren/yichentoc"
 }
