@@ -1,0 +1,50 @@
+{
+  "name": "yichen_toc",
+  "version": "1.0.4",
+  "description": "from tocmd.npm:a npm wrapper of i5ting_ztree_toc",
+  "keywords": [
+    "doc",
+    "markdown",
+    "md",
+    "toc",
+    "table of content",
+    "ztree",
+    "i5ting_ztree_toc",
+    "i5ting"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish .",
+    "test": " node bin/tocmd.js -f sample.md -v -o -s vs.css"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "yichen_toc": "bin/tocmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yichenshanren/tocmd.npm"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/tocmd.npm/issues"
+  },
+  "dependencies": {
+    "bufferhelper": "^0.2.0",
+    "commander": "^2.5.0",
+    "config": "^1.7.0",
+    "handlebars": "^2.0.0",
+    "highlight.js": "^9.15.6",
+    "marked": "^0.3.2",
+    "object-assign": "^1.0.0",
+    "open": "0.0.5",
+    "shelljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "gulp-livereload": "^2.1.1",
+    "gulp-watch": "^0.7.0",
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/yichenshanren/tocmd.npm"
+}
